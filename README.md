@@ -133,17 +133,20 @@ Server URL:
 http://127.0.0.1:8000/
 API Endpoints
 User APIs
-Method	Endpoint	Description
+
+Method	Endpoint	    Description
 POST	/user/register	Register User
-POST	/user/login	Login User
+POST	/user/login	    Login User
+
 Event APIs
-Method	Endpoint	Description
-GET	/event/events	List Events
+Method	Endpoint	    Description
+GET	/event/events	    List Events
 GET	/event/events/<id>	Event Details
+
 Registration APIs
-Method	Endpoint	Description
-POST	/book/events/<id>/register	Register Event
-GET	/book/my-registrations	View My Registrations
+Method	Endpoint	                 Description
+POST	/book/events/<id>/register	 Register Event
+GET  	/book/my-registrations	         View My Registrations
 Authentication
 
 After login, JWT tokens are returned.
